@@ -1,0 +1,42 @@
+.recipe-card-wrapper
+{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 10px;
+    position: relative;
+}
+.recipe-card-text
+{
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    color: #fff;
+    display: grid;
+    gap:2px;
+}
+#drinkTitle
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+#auth
+{
+    font-size: 12px;
+    color: #A9A9A9;
+    font-weight: lighter;
+}
+.recipe-card-rating
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(239, 215, 107, 0.27);
+    color:#fff;
+    padding:5px 5px;
+    display: flex;
+    gap:10px;
+    font-size: 12px;
+    border-radius: 10px;
+    align-items: center;
+}

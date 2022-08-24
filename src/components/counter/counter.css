@@ -1,0 +1,15 @@
+.counter-wrap
+{
+    font-size: 2rem;
+    color: green;
+}
+.counter-wrap button
+{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 10px;
+    outline: none;
+    border:none;
+    background: #b71d1c;
+    color: white;
+}
