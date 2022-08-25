@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
 function Header(props) {
-    return (
-        <div>
-            This is header
-        </div>
-    );
+  return (
+    <div>
+      {props.text}
+      {props.isMale.toString()}
+    </div>
+  );
 }
 
 export default Header;
